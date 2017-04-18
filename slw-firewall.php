@@ -653,12 +653,11 @@ function WP_firewall_submenu(){
 function WP_firewall_show_plugin_link(){
 	?>
 	<div style="float:right; position:relative; top:-70px;">
-	<a href="http://alicomez.com/slw-firewall.slw"
+	<a href="http://alicomez.com/"
      style="text-decoration:none;" target="_blank">
 	<?php
 	if(preg_match('#MSIE#', $_SERVER['HTTP_USER_AGENT']) == 0) {
 	?>
-	<img src="http://alicomez.com/wp-content/uploads/2014/11/logo1.png" />
 	<?php } ?>
 	<br />
 	<small>Firewall Hakkında</small>
